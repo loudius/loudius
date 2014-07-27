@@ -1,0 +1,354 @@
+/* line 1, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.headerBg {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  background: none repeat scroll 0% 0% #FFF;
+  height: 45px;
+  position: fixed;
+  z-index: 670;
+}
+
+/* line 9, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.headerBg, .container {
+  left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* line 16, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.container {
+  display: block;
+  height: 29px;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 5px 0 0;
+  position: fixed;
+  width: 945px;
+  z-index: 680;
+}
+
+/* line 27, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.header-right {
+  float: right;
+  margin-right: 7px;
+  width: 274px;
+}
+
+/* line 33, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.header-left {
+  float: left;
+  margin-left: 7px;
+  padding-top: 5px;
+}
+/* line 37, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.header-left h3 {
+  color: #81abb8;
+  float: left;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 21px;
+  padding-right: 5px;
+}
+/* line 46, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/header.css.scss */
+.header-left a {
+  float: right;
+}
+
+/* mixins, variables, etc. */
+/* line 22, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/global.css.scss */
+body, div, fieldset, form, input, p, h1, h2, h3, ul, ol, li {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/global.css.scss */
+ol, ul {
+  list-style: none outside none;
+}
+
+/* line 32, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/global.css.scss */
+img {
+  border: 0 none;
+}
+
+/* line 36, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/global.css.scss */
+.ftlt {
+  float: left !important;
+}
+
+/* line 40, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/global.css.scss */
+.ftrt {
+  float: right !important;
+}
+
+/* line 1, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+body {
+  background: none repeat scroll 0% 0% white;
+  color: #404040;
+  direction: ltr;
+  font-family: helvetica, verdana, arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+/* line 12, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+#globalContainer {
+  left: 0px;
+  height: 630px;
+  position: absolute;
+  right: 0px;
+}
+
+/* line 19, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.un-auth-bg {
+  background: none repeat scroll 0% 0% black;
+  height: 200%;
+  left: -50%;
+  position: fixed;
+  width: 200%;
+}
+/* line 26, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.un-auth-bg img {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  min-height: 50%;
+  min-width: 50%;
+  right: 0;
+  top: 0;
+}
+
+/* line 38, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.un-auth-content {
+  height: 410px;
+  left: 50%;
+  margin: -154px 0 0 -418px;
+  margin-top: -228px;
+  position: absolute;
+  top: 50%;
+  width: 838px;
+}
+
+/* line 48, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.bg-img-text {
+  bottom: 0;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 55, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.bg-username-and-text {
+  bottom: 0px;
+  clear: both;
+  float: right;
+  height: 82px;
+  position: absolute;
+  width: 400px;
+}
+
+/* line 64, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.username-text-wrapper {
+  display: block;
+}
+
+/* line 68, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.text {
+  color: white;
+  font-size: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 74, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.username {
+  color: white;
+  float: left;
+  margin-top: 6px;
+  text-align: left;
+  white-space: nowrap;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+/* line 84, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.username span {
+  text-decoration: underline;
+}
+
+/* line 89, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.footer.inline-list {
+  margin-left: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 94, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.alert-messages {
+  left: 0;
+  opacity: 0.4;
+  position: fixed;
+  right: 0;
+  top: 46px;
+  z-index: 999;
+}
+
+/* line 103, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.message {
+  background: none repeat scroll 0% 0% rgba(249, 249, 249, 0.97);
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+  width: 300px;
+}
+/* line 112, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+.message .message-text {
+  color: black;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* line 124, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer {
+  bottom: 30px;
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* line 132, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer ul {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+}
+/* line 138, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer ul li {
+  color: white;
+  display: inline;
+  font-size: 14px;
+  margin: 0 6px 0 0;
+}
+/* line 146, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer a {
+  background: none repeat scroll 0% 0% transparent;
+  color: #56c2e1;
+  text-decoration: none;
+}
+/* line 151, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer a:hover {
+  text-decoration: underline;
+}
+/* line 156, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/main.css.scss */
+footer .divider {
+  display: none;
+}
+
+/* line 1, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+#formWrapper {
+  border-radius: 3px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+/* line 7, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.form {
+  display: block;
+  margin-top: 95px;
+}
+/* line 11, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.form .footer {
+  background-color: #FFF;
+  padding-bottom: 8px;
+  display: inline-block;
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 19, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.input, .footer {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  padding: 12px;
+  width: 100%;
+}
+
+/* line 28, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.input {
+  color: #404040;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* line 32, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.input:disabled {
+  background-color: white;
+}
+
+/* line 37, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.login-input, .name-input {
+  border-radius: 3px 3px 0 0;
+}
+
+/* line 41, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.login-input, .name-input, .email-input, .pwd-input {
+  border-bottom: 1px solid #E5E5E5;
+  border-bottom-color: rgba(0, 0, 0, 0.101);
+}
+
+/* line 46, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.btn {
+  background-color: #56c2e1;
+  border: 1px solid #46b3d3;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: white;
+  content: "";
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 12px;
+  text-align: center;
+  text-shadow: 0 -1px none repeat scroll 0% 0% rgba(249, 249, 249, 0.97);
+  -webkit-transform: none;
+  vertical-align: top;
+  z-index: 0;
+}
+
+/* line 70, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.btn-reg {
+  margin-bottom: 2px;
+}
+
+/* line 74, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.link-login {
+  background: none repeat scroll 0% 0% transparent;
+  color: #56c2e1;
+  cursor: pointer;
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+}
+/* line 84, C:/BitNami/rubystack/projects/loudius/app/assets/stylesheets/web/forms.css.scss */
+.link-login:hover {
+  color: #56c2e1;
+  text-decoration: underline;
+}
