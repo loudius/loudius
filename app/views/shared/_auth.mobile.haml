@@ -1,0 +1,15 @@
+.header
+  .hint
+    Site still in Development
+  - if controller_name == 'sessions'
+    %h2 Log In
+  - else
+    %h2 Sign Up
+.body
+  - if controller_name == 'sessions'
+    = render 'shared/forms/login'
+  - else
+    = render 'shared/forms/reg'
+.footer
+  .hint
+    Follow #{link_to '@francischibaye', 'http://www.twitter.com/francischibaye'} for development updates.

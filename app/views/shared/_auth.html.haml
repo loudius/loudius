@@ -1,0 +1,22 @@
+.un-auth-bg
+  = image_tag @bg_image
+.un-auth-content
+  #formWrapper
+    - if controller_name == 'sessions'
+      = render 'shared/forms/login'
+    - else
+      = render 'shared/form/reg'
+  .bg-username-and-text
+    .username-text-wrapper
+      .bg-img-text
+        %p.text
+          = @bg_text
+        %p.username
+          Image by
+          %span= @bg_username
+
+%footer.inline-list
+  %ul
+    %li
+      Follow #{link_to '@francischibaye', 'http://www.twitter.com/francischibaye'} for development updates.
+      %span.divider

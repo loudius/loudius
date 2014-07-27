@@ -1,0 +1,20 @@
+%form{class: 'form', id: 'reg-form'}
+  %span.m2-auth-token
+    %fieldset
+      .name
+        %label
+          Name
+        .input-wrapper
+          %input{type: 'text', class: 'input', disabled: :disabled}
+      .email
+        %label
+          Phone number
+        .input-wrapper
+          %input{type: 'text', class: 'input', disabled: :disabled}
+      .password
+        %label
+          Password
+        .input-wrapper
+          %input{type: 'password', class: 'input', disabled: :disabled}
+    %span.w-button-bright.w-button-common
+      %input{type: 'submit', value: 'Login', class: 'btn', disabled: :disabled}
