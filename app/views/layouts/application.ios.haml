@@ -2,24 +2,33 @@
 %html
   %head
     %title= full_title(yield(:title))
-    = stylesheet_link_tag 'mobile/application', media: 'all',  |
+    = stylesheet_link_tag 'ios', media: 'all',  |
       'data-turbolinks-track' => true                       |
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
     = render 'layouts/shim'
-  %body
-    .container
+  %body.ios{ tabindex: 0 }
+    #viewport
+      #page
       = render 'layouts/header'
-      #main_content
-        = yield
-      #footer
-        .signup
-          - if controller_name == 'sessions'
-            .hint
-              New to Loudius?
-              = link_to 'Sign Up', '#'
-            .fgt-pw= link_to 'Forgot your password?', '#'
-          - else
-            .hint
-              Already have an account?
-              = link_to 'Log In', '#'
+      .content#main
+        #main_content
+          .alert-msg-ios
+            .msg-ios
+              .ib
+                %i.l.img
+                .c
+                  %span.msg-text-ios
+                    Site still in development
+          = yield
+      -##footer
+      -#  .signup
+      -#    - if controller_name == 'sessions'
+      -#      .hint
+      -#        New to Loudius?
+      -#        = link_to 'Sign Up', '#'
+      -#      .fgt-pw= link_to 'Forgot your password?', '#'
+      -#    - else
+      -#      .hint
+      -#        Already have an account?
+      -#        = link_to 'Log In', '#'

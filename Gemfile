@@ -13,3 +13,11 @@ gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.1'
 gem 'turbolinks', '1.2.0'
+
+group :doc do
+  gem 'sdoc', '0.4.0', require: false
+end
+
+group :production do
+  gem 'rails_12factor', '0.0.2'
+end

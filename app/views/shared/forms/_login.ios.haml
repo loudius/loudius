@@ -1,15 +1,8 @@
-%form{class: 'form', id: 'login-form'}
-  %span.m2-auth-token
-    %fieldset
-      .email
-        %label
-          Username or Phone number
-        .input-wrapper
-          %input{type: 'text', class: 'input', disabled: :disabled}
-      .password
-        %label
-          Password
-        .input-wrapper
-          %input{type: 'password', class: 'input', disabled: :disabled}
-    %span.w-button-bright.w-button-common
-      %input{type: 'submit', value: 'Login', class: 'btn', disabled: :disabled}
+%form{class: 'form login-form'}
+  .formview
+    .fields
+      %input{type: 'text', placeholder: 'Username or Phone number', class: 'input login-input', disabled: :disabled}
+      %input{type: 'password', placeholder: 'Password', class: 'input pwd-input', disabled: :disabled}
+  .footer
+    %input{type: 'submit', value: 'Login', class: 'btn', disabled: :disabled}
+    %input{type: 'submit', value: 'Forgot your password', class: 'link-login', disabled: :disabled}
