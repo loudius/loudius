@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   before_filter :detect_browser
 
   def bg_img
-    @rnd = (rand(4)+1)
+    @rnd = (rand(9)+1)
 
     if @rnd == 1
       @bg_image = '1.jpg'
@@ -20,10 +20,30 @@ class ApplicationController < ActionController::Base
       @bg_image = '3.jpg'
       @bg_text = 'Victoria Falls Sunset'
       @bg_username = 'Vivian Chibaye'
-    else
+    elsif @rnd == 4
       @bg_image = '4.jpg'
-      @bg_text = 'Sunset view at Victoria Fall.'
+      @bg_text = 'Victoria Falls Bridge over Zambezi river.'
       @bg_username = 'Francis Chibaye'
+    elsif @rnd == 5
+      @bg_image = '5.jpg'
+      @bg_text = 'Love yourself funtime'
+      @bg_username = 'Vivian Chibaye'
+    elsif @rnd == 6
+      @bg_image = '6.jpg'
+      @bg_text = 'Lake Tanganyika'
+      @bg_username = 'Musonda Chibaye'
+    elsif @rnd == 7
+      @bg_image = '7.jpg'
+      @bg_text = 'Zambia United'
+      @bg_username = 'Patricia Chibaye'	
+    elsif @rnd == 8
+      @bg_image = '8.jpg'
+      @bg_text = 'Zambezi Dream'
+      @bg_username = 'Musonda Chibaye'
+    else
+      @bg_image = '9.jpg'
+      @bg_text = 'Sunset view, Victoria Falls'
+      @bg_username = 'Francis Chibaye'	  
     end
   end
 
@@ -33,7 +53,7 @@ class ApplicationController < ActionController::Base
   def detect_browser
     agent = request.headers["HTTP_USER_AGENT"].downcase
     MOBILE_BROWSERS.each do |m|
-      if agent.match(m) && agent !~ /iphone|ipad/
+      if agent.match(m) && agent !~ /iphone|ipad|Opera Mobi/
         request.format = :mobile
       elsif agent =~ /iphone/
         request.format = :ios

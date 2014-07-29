@@ -1,20 +1,10 @@
-%form{class: 'form', id: 'reg-form'}
-  %span.m2-auth-token
-    %fieldset
-      .name
-        %label
-          Name
-        .input-wrapper
-          %input{type: 'text', class: 'input', disabled: :disabled}
-      .email
-        %label
-          Phone number
-        .input-wrapper
-          %input{type: 'text', class: 'input', disabled: :disabled}
-      .password
-        %label
-          Password
-        .input-wrapper
-          %input{type: 'password', class: 'input', disabled: :disabled}
-    %span.w-button-bright.w-button-common
-      %input{type: 'submit', value: 'Login', class: 'btn', disabled: :disabled}
+%form{class: 'form reg-form'}
+  .formview
+    .fields
+      %input{type: 'text', placeholder: 'Name', class: 'input login-input', disabled: :disabled}
+      %input{type: 'text', placeholder: 'Phone number', class: 'input login-input', disabled: :disabled}
+      %input{type: 'password', placeholder: 'Password', class: 'input pwd-input', disabled: :disabled}
+    .footer
+      %input{type: 'submit', value: 'Create Account', class: 'btn', disabled: :disabled}
+  #footer
+    = link_to 'Log In', login_path, class: 'auth-link'

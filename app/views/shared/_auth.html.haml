@@ -5,7 +5,14 @@
     - if controller_name == 'sessions'
       = render 'shared/forms/login'
     - else
-      = render 'shared/form/reg'
+      = render 'shared/forms/reg'
+    #footer
+      %ul
+        %li
+          - if controller_name == 'sessions'
+            = link_to 'Create Account', reg_path, class: 'reg'
+          - else
+            = link_to 'Log In', login_path, class: 'reg'
   .bg-username-and-text
     .username-text-wrapper
       .bg-img-text
@@ -16,7 +23,7 @@
           %span= @bg_username
 
 %footer.inline-list
-  %ul
+  %ul	  
     %li
       Follow #{link_to '@francischibaye', 'http://www.twitter.com/francischibaye'} for development updates.
       %span.divider

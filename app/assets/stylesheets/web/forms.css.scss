@@ -27,7 +27,9 @@
 
 .input{
   color: $grayDarker;
-  font-size: 16px;
+  font-family: Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing: 1px;
   &:disabled{
     background-color: $white;
@@ -43,32 +45,8 @@
   border-bottom-color: rgba(0, 0, 0, 0.101);
 }
 
-.btn {
-  background-color: $blueLight;
-  border: 1px solid #46b3d3;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  color: $white;
-  content: "";
-  cursor: pointer;
-  display: block;
+.btn-common{
   float: right;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 12px;
-  text-align: center;
-  text-shadow: 0 -1px $grayLighter;
-  -webkit-transform: none;
-  vertical-align: top;
-  z-index: 0;
-}
-
-.btn-reg{
-  margin-bottom: 2px;
 }
 
 .link-login {
@@ -86,3 +64,36 @@
     text-decoration: underline;
   }
 }
+
+  .reg{
+    font-weight: bold;
+    color: $black;
+    background: none repeat scroll 0% 0% rgba(249, 249, 249, 0.97);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .1));
+    border-color: rgba(0, 0, 0, .30) rgba(0, 0, 0, .30) rgba(0, 0, 0, .52);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .07), inset 0 -1px 1px 0 rgba(0,0,0,0.03);
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+
+    display: inline-block;
+    opacity: 0.4;
+    overflow: visible;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70%;
+    z-index: 0;
+
+    &:hover{
+      text-decoration: none;
+      text-shadow: none;
+      color: $black;
+      opacity: 0.5;
+
+    }
+  }

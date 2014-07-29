@@ -125,6 +125,14 @@ body{
   }
 }
 
+#footer{
+  margin-top: 50px;
+
+  ul{
+    text-align: center;
+  }
+}
+
 footer {
   bottom: 30px;
   color: $white;
@@ -144,16 +152,6 @@ footer {
       display: inline;
       font-size: 14px;
       margin: 0 6px 0 0;
-    }
-  }
-
-  a {
-    background: none repeat scroll 0% 0% transparent;
-    color: $blueLight;
-    text-decoration: none;
-
-    &:hover{
-      text-decoration: underline;
     }
   }
 

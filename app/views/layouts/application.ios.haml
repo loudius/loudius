@@ -10,25 +10,11 @@
   %body.ios{ tabindex: 0 }
     #viewport
       #page
-      = render 'layouts/header'
-      .content#main
-        #main_content
-          .alert-msg-ios
-            .msg-ios
-              .ib
-                %i.l.img
-                .c
-                  %span.msg-text-ios
-                    Site still in development
-          = yield
-      -##footer
-      -#  .signup
-      -#    - if controller_name == 'sessions'
-      -#      .hint
-      -#        New to Loudius?
-      -#        = link_to 'Sign Up', '#'
-      -#      .fgt-pw= link_to 'Forgot your password?', '#'
-      -#    - else
-      -#      .hint
-      -#        Already have an account?
-      -#        = link_to 'Log In', '#'
+        = render 'layouts/header'
+        .content#main
+          #main_content
+            .inner-content
+              .alert-msg-ios
+                %span.msg-text-ios
+                  Site still in development
+              = yield
