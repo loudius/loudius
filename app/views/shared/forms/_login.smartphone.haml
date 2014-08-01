@@ -1,0 +1,21 @@
+%form{class: 'form login-form'}
+  .formview
+    %fieldset
+      %ul.list-group
+        %li
+          %label Username or Phone Number
+          %input{type: 'text', placeholder: 'Username or Phone Number', class: 'input login-input', disabled: :disabled}
+          %span.clearfield
+        %li
+          %label Password
+          %input{type: 'password', placeholder: 'Password', class: 'input pwd-input', disabled: :disabled}
+          %span.clearfield
+
+    %input{type: 'submit', value: 'Log In', class: 'btn-m', disabled: :disabled}
+  #footer
+    = link_to 'Create Account', reg_path, class: 'auth-link'
+    .other-links
+      %ul
+        %li
+          %span
+            = link_to 'Forgot password?', '#'

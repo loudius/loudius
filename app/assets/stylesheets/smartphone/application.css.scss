@@ -1,0 +1,251 @@
+@import 'global';
+
+body, button, form, div, input{
+  display: block;
+}
+
+body, .viewport{
+  min-height: 343px;
+}
+
+body{
+  background-color: #e8e8e8;
+  border-top: none;
+  cursor: pointer;
+  direction: ltr;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+}
+
+#viewport{
+  overflow: hidden;
+  position: relative;
+  width: 100%
+}
+
+#page{
+  position: relative;
+}
+
+// HEADER
+
+#header{
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  background: none repeat scroll 0% 0% #FFF;
+  box-sizing: border-box;
+  height: 43px;
+  position: relative;
+  width: 100%;
+  z-index: 12;
+}
+
+#headerCenter{
+  min-width: 160px;
+  padding: 5px;
+  text-align: center
+}
+
+// FLASH MESSAGES
+
+.alert-msg-ios{
+  background: $grayLighter;
+  border: 1px solid #e5e5e5;
+  border-color: rgba(0, 0, 0, .101);
+  border-radius: 0 0 3px 3px;
+  border-top: none;
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+}
+
+.msg-text-ios{
+  color: $gRGBAy;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+// CONTENT
+
+.content{
+  min-height: 343px;
+  border-bottom: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+
+.inner-content{
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: 416px;
+}
+
+// FORMS
+
+form{
+  padding-top: 16px;
+
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+
+  fieldset {
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+  }
+
+  label {
+    display: none;
+  }
+}
+
+ul.list-group {
+  background: none repeat scroll 0% 0% #F8F6EF;
+  border: 1px solid #AAA;
+  margin: 0px;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: none;
+
+  li {
+    background: none repeat scroll 0% 0% transparent;
+    border: medium none;
+    display: block;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    box-shadow: none;
+  }
+}
+
+.formview{
+  position: relative;
+
+  &:before{
+    border-color: transparent;
+    border-radius: 0;
+    border-width: 6px 6px 8px 6px;
+    bottom: -4px;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    border-style: solid;
+    content: '';
+    pointer-events: none;
+  }
+}
+
+.clear-field {
+  padding: 12px 10px;
+  position: absolute;
+  display: none;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+input, button {
+  background-color: #FFF;
+  cursor: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-align: start;
+}
+
+.input {
+  border-bottom: 1px solid #AAA;
+  border-radius: 0;
+  padding: 12px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.pwd-input{
+  border: none;
+}
+
+.auth-link{
+  color: #777;
+  font-weight: bold;
+  text-decoration: none;
+  outline: 0px none;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  text-shadow: 0px 1px 0px #FFF;
+
+  &:hover{
+    color: #888;
+    text-decoration: none;
+  }
+}
+
+#footer{
+  padding: 18px 0 6px;
+  text-align: center;
+
+  .other-links {
+    text-align: center;
+    ul{
+      margin-top: 6px;
+      li {
+        display: block;
+        list-style: none;
+        span {
+          color: #6a7180;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 16px;
+          text-shadow: 0px 1px 0px #FFF;
+        }
+      }
+    }
+  }
+}
+
+.btn-m{
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: none repeat scroll 0% 0% $blueLight;
+  border: 1px solid #46b3d3;
+  box-shadow: none;
+  color: #FFF;
+  text-shadow: none;
+  display: block;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 15px;
+  padding: 8px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+footer{
+  padding: 10px 0;
+  ul{
+    text-align: center;
+    li{
+    }
+  }
+}

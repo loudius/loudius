@@ -2,4 +2,9 @@
   .headerBg
     .container
       .header-left
-        = image_tag 'logo-28px.png', size: '112x28'
+        = link_to(image_tag 'logo-28px.png', size: '112x28')
+      .header-right
+        - if controller_name == 'sessions'
+          = link_to 'Create Account', reg_path, class: 'btn-header'
+        - else
+          = link_to 'Log In', login_path, class: 'btn-header'

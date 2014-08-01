@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3f162a2-e421-43f7-96d5-af6653fe1b61" name="Default" comment="" />
+    <list default="true" id="f3f162a2-e421-43f7-96d5-af6653fe1b61" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_auth.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_header.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/forms/_login.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/forms/_reg.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_shim.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/smartphone/application.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sessions/new.smartphone.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/new.smartphone.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_auth.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_auth.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/global.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/global.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="loudius.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,37 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.mobile.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.haml">
+      <file leaf-file-name="forms.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="4811">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/ios/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="3" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-11.423077" vertical-offset="1675" max-vertical-offset="3842">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.ios.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.ios.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="21" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5303777" vertical-offset="0" max-vertical-offset="609">
+            <state line="72" column="15" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.27914613" vertical-offset="1054" max-vertical-offset="2295">
               <folding />
             </state>
           </provider>
@@ -77,8 +69,6 @@
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/web/main.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/web/global.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
@@ -90,8 +80,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.mobile.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/forms/_reg.mobile.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_auth.mobile.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/mime_types.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/layouts/_shim.ios.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
@@ -100,19 +88,27 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.ios.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/global.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/forms/_login.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/web/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_auth.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/forms/_reg.ios.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/forms/_login.ios.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_auth.ios.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.ios.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/ios/application.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile/application.css.scss" />
+        <option value="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_auth.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.smartphone.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/global.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/forms/_reg.smartphone.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/forms/_login.smartphone.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/smartphone/application.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss" />
       </list>
     </option>
   </component>
@@ -129,7 +125,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -148,8 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,6 +204,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -229,6 +241,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +337,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,6 +478,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="smartphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loudius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -494,6 +554,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,14 +563,15 @@
     <property name="recentsLimit" value="5" />
     <property name="Ruby.AssetRefParam.stylesheets" value="css.scss" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../header" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\layouts" />
-      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\sessions" />
+      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\users" />
       <recent name="C:\BitNami\rubystack\projects\loudius\app\views\shared\forms" />
       <recent name="C:\BitNami\rubystack\projects\loudius\app\views\shared" />
-      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\users" />
+      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\sessions" />
+      <recent name="C:\BitNami\rubystack\projects\loudius\app\views\layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\BitNami\rubystack\projects\loudius\app\assets\stylesheets" />
@@ -671,53 +734,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.ios.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="65" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="0" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="14" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0" vertical-offset="1882" max-vertical-offset="2788" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="28" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/global.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
@@ -783,21 +799,6 @@
         <state line="6" column="33" selection-start="197" selection-end="197" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.mobile.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.8747856" vertical-offset="136" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.17114094" vertical-offset="0" max-vertical-offset="596" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
@@ -823,31 +824,9 @@
         <state line="62" column="0" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="1462" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="12" selection-end="132" vertical-scroll-proportion="0.028764805" vertical-offset="0" max-vertical-offset="1003" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/global.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="29" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="62" selection-end="105" vertical-scroll-proportion="0.11505922" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.ios.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="66" selection-start="90" selection-end="90" vertical-scroll-proportion="0.05752961" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="15" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.5699831" vertical-offset="1175" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/application.css.scss">
@@ -855,16 +834,9 @@
         <state line="127" column="8" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.61551434" vertical-offset="1794" max-vertical-offset="2822" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="0" selection-end="467" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="3" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
@@ -877,79 +849,152 @@
         <state line="4" column="14" selection-start="0" selection-end="495" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_auth.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="581" selection-end="745" vertical-scroll-proportion="0.6699507" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_auth.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="229" selection-end="229" vertical-scroll-proportion="0.30706075" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="11" column="20" selection-start="229" selection-end="229" vertical-scroll-proportion="0.30706075" vertical-offset="0" max-vertical-offset="609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_auth.ios.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="111" selection-end="111" vertical-scroll-proportion="0.11564626" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="98" selection-start="441" selection-end="441" vertical-scroll-proportion="0.16748768" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="4" column="7" selection-start="111" selection-end="111" vertical-scroll-proportion="0.11564626" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="98" selection-end="98" vertical-scroll-proportion="0.111658454" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="4" column="42" selection-start="98" selection-end="98" vertical-scroll-proportion="0.111658454" vertical-offset="0" max-vertical-offset="609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.ios.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="518" selection-end="518" vertical-scroll-proportion="0.25123152" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="9" column="48" selection-start="518" selection-end="518" vertical-scroll-proportion="0.25123152" vertical-offset="0" max-vertical-offset="609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.ios.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="432" selection-end="432" vertical-scroll-proportion="0.22331691" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+        <state line="8" column="54" selection-start="432" selection-end="432" vertical-scroll-proportion="0.22331691" vertical-offset="0" max-vertical-offset="609" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="4" column="45" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/ios/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="3" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-11.423077" vertical-offset="1675" max-vertical-offset="3842">
-          <folding />
-        </state>
+        <state line="116" column="3" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="1675" max-vertical-offset="3842" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="4811">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="4811" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.ios.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5303777" vertical-offset="0" max-vertical-offset="609">
+        <state line="19" column="21" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5303777" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.18740158" vertical-offset="0" max-vertical-offset="635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_auth.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="5" selection-start="2237" selection-end="2237" vertical-scroll-proportion="1.5932475" vertical-offset="80" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/header.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="19" selection-start="624" selection-end="624" vertical-scroll-proportion="0.68472904" vertical-offset="280" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="114" selection-end="114" vertical-scroll-proportion="0.111658454" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="49" selection-start="392" selection-end="392" vertical-scroll-proportion="0.16748768" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="392" selection-end="392" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.mobile.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_auth.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="187" selection-end="187" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="37" selection-start="93" selection-end="93" vertical-scroll-proportion="0.111658454" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_reg.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="60" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/smartphone/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="17" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.83415437" vertical-offset="1787" max-vertical-offset="4352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/global.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="909" selection-end="987" vertical-scroll-proportion="0.15106732" vertical-offset="843" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/forms/_login.smartphone.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="506" selection-end="506" vertical-scroll-proportion="0.36288998" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/forms.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="15" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.27914613" vertical-offset="1054" max-vertical-offset="2295">
           <folding />
         </state>
       </provider>

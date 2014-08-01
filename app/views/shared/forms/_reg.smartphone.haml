@@ -1,0 +1,20 @@
+%form{class: 'form reg-form'}
+  .formview
+    %fieldset
+      %ul.list-group
+        %li
+          %label Name
+          %input{type: 'text', placeholder: 'Name', class: 'input login-input', disabled: :disabled}
+          %span.clearfield
+        %li
+          %label Phone Number
+          %input{type: 'text', placeholder: 'Phone Number', class: 'input reg-login-input', disabled: :disabled}
+          %span.clearfield
+        %li
+          %label Password
+          %input{type: 'password', placeholder: 'Password', class: 'input pwd-input', disabled: :disabled}
+          %span.clearfield
+
+    %input{type: 'submit', value: 'Create Account', class: 'btn-m', disabled: :disabled}
+  #footer
+    = link_to 'Log In', login_path, class: 'auth-link'

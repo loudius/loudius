@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %title= full_title(yield(:title))
+    = stylesheet_link_tag 'smartphone/application', media: 'all',  |
+      'data-turbolinks-track' => true                       |
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    = render 'layouts/shim'
+  %body.ios{ tabindex: 0 }
+    #viewport
+      #page
+        = render 'layouts/header'
+        .content#main
+          #main_content
+            .inner-content
+              .alert-msg-ios
+                %span.msg-text-ios
+                  Site still in development
+              = yield

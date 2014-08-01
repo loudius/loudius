@@ -1,0 +1,9 @@
+- if controller_name == 'sessions'
+  = render 'shared/forms/login'
+- else
+  = render 'shared/forms/reg'
+%footer
+  %ul
+    %li
+      Follow #{link_to '@francischibaye', 'http://www.twitter.com/francischibaye'} for development updates.
+      %span.divider

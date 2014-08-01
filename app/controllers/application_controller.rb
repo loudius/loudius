@@ -53,10 +53,12 @@ class ApplicationController < ActionController::Base
   def detect_browser
     agent = request.headers["HTTP_USER_AGENT"].downcase
     MOBILE_BROWSERS.each do |m|
-      if agent.match(m) && agent !~ /iphone|ipad|Opera Mobi/
+      if agent.match(m) && agent !~ /android|blackberry|iphone|ipad|opera mobi/
         request.format = :mobile
-      elsif agent =~ /iphone/
+      elsif agent =~ /iphone/ && agent !~ /ipad|opera mini/
         request.format = :ios
+      elsif agent =~ /opera\smobi|android|blackberry|windows\sce|windows\sphone|smartphone/
+        request.format = :smartphone
       end
     end
   end
